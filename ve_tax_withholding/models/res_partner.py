@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*- 
 
 from odoo import models, fields, api 
-
+#retencion de ISLR para tipo de persona
 class ResPartner(models.Model):
     
     _inherit = 'res.partner' 
@@ -11,7 +11,9 @@ class ResPartner(models.Model):
                                             ('PJD','PJD: Persona Juridica Dominciliada'), 
                                             ('PJDN','PJDN: Persona Juridica No Domicialda'), 
                                             ('PJNCD','PJNCD: Persona Juridica No Costituida Domicilada')],
-                                           string='Retención ISLR Tipo de persona', store=True, )
+                                           string='Retención ISLR Tipo de persona', store=True, ) 
+    #permite elegir el tipo de impueto 
+    type_tax = fields.Many2one( string = '% Retencion IVA', comodel_name = 'account.tax', required = True)
     
     
             
