@@ -12,8 +12,10 @@
                 </xpath> 
                 <notebook>
                       <page string="Retención" >
+                          <group>
                          <field name="partner_type_custom"/>
                          <field name="type_tax"/>
+                         </group>
                     </page>
                 </notebook>
 
