@@ -14,8 +14,7 @@
                      <page string="Retención" >
                          <group>
                               <field name="partner_type_custom"/>
-                         </group>
-                         <group>
+                         
                              <field name="type_tax"/>
                          </group>                        
                      </page>
