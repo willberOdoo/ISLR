@@ -12,7 +12,7 @@ class ResPartner(models.Model):
                                             ('PJDN','PJDN: Persona Juridica No Domicialda'), 
                                             ('PJNCD','PJNCD: Persona Juridica No Costituida Domicilada')],
                                            string='Retención ISLR Tipo de persona', store=True, ) 
-    #permite elegir el tipo de impueto 
+    #permite elegir el tipo de impuesto 
     type_tax = fields.Many2one( string = '% Retencion IVA', comodel_name = 'account.tax', required = True)
     
     
