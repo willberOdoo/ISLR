@@ -2,7 +2,7 @@
 
 from odoo import models, fields, api 
 #factor para calcular la retencion ISLR
-class factor(models.Model): 
+class factor(models.TransientModel): 
     
     _inherit = 'res.config.settings'
     
