@@ -3,7 +3,7 @@
 from odoo import models, fields, api 
 #factor para calcular la retencion ISLR
 class factor(models.Model): 
-    _name = 'factor'
+    _name = 'res.config.settings'
     _inherit = 'res.config.settings'
     
     factor = fields.Float(
