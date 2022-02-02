@@ -7,4 +7,4 @@ class factor(models.Model):
     _inherit = 'res.config.settings'
     
     factor = fields.Float(
-    string = 'Factor Retención ISLR', store=True,  )
+    string = 'Factor Fiscal', store=True,  )
