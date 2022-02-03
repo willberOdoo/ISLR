@@ -6,8 +6,10 @@
             <field name="model">res.config.settings</field>
             <field name="inherit_id" ref="base.res_config_settings_view_form" />
             <field name="arch" type="xml">
+                 <group>
                 <field name="factor"/>
-            </field>
+                      </group>
+                </field>
         </record>
     </data>
 </odoo>
