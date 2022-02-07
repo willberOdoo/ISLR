@@ -19,24 +19,26 @@
                 </form>
             </field>
         </record>
-          <group>
-              <group>
+        
         <record model="ir.ui.view" id="tributary_unit_list">
             <field name="name">tributary.unit.list</field>
             <field name="model">tax.tributary_unit</field>
-            <field name="arch" type="xml"> <tree string="Tributary Unit List"> <field name="unit"/> <field name="factor"/> <field name="minimum"/> </tree> </field>
+            <field name="arch" type="xml">  
+            <tree string="Tributary Unit List"> 
+            <field name="unit"/> 
+            <field name="factor"/> 
+            <field name="minimum"/> 
+            </tree> 
+            </field>
         </record>
-                  </group>
-              <group>
-        
+             
         <record model="ir.ui.view" id="tributary_unit_search">
             <field name="name">tributary.unit.search</field>
             <field name="model">tax.tributary_unit</field>
             <field name="arch" type="xml"> <search> <field name="unit"/> <field name="factor"/>
            <field name="minimum"/> </search> </field>
         </record>
-                  </group>
-              <group>
+                
       
         <record id="seq_tributary_unit" model="ir.sequence">
             <field name="name">Unidad Tibutaria N°</field>
@@ -45,7 +47,6 @@
             <field name="padding">4</field>
             <field name="company_id" eval="False"/>
         </record>
-                  <group>
-        </group>
+         
     </data>
 </odoo>
