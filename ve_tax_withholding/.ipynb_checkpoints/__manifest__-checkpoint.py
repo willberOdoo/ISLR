@@ -39,6 +39,7 @@
         "views/account_move_inherit_view.xml",
         "views/res_partner_inherit.xml",
         "views/factor_islr_views.xml",
+        "views/tributary_unit.xml",
     ],
     
     'demo': [
