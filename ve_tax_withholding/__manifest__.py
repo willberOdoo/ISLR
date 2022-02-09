@@ -24,8 +24,11 @@
     'data': [
         "security/tax_withholding_security.xml",
         "security/ir.model.access.csv",
-        "data/withholding_subjects_data.xml",
         "data/tax_chart_template.xml",
+        "data/account.account.template.csv",
+        "data/chart_post.xml",
+        "data/account_chart_template.xml",
+        "data/withholding_subjects_data.xml",
         "data/tax_groups.xml",
         "data/taxes.xml",
         "report/tax_withholding_report.xml",
