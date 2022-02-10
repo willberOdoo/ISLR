@@ -8,7 +8,7 @@
     """,
     
     'description': """
-        This is a module in which you can perform tax withholdings, generate the sales and purchase ledger required by Venezuelan law. 
+        This is a module in which you can perform tax withholdings, generate the sales and purchase ledger required by Venezuela law. 
     """,
     
     'author': 'Payall',
